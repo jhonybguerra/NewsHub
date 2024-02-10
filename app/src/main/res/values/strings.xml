@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">NewsHub</string>
+    <string name="about_text">I\'m Jhony Guerra, passionate about crafting mobile experiences on Android using Kotlin.\n\nLet\'s connect and create something amazing together!\n\nEmail: jhonybguerra@gmail.com\nPhone: +55 (11) 98672–6064\nGitHub: https://github.com/jhonybguerra\nLinkedIn: https://www.linkedin.com/in/jhonybguerra/</string>
+    <string name="about_the_developer">About the Developer</string>
+    <string name="ok">OK</string>
+    <string name="error_loading_article">Error loading article</string>
+    <string name="article_saved_successfully">Article saved successfully</string>
+    <string name="unknown_error">Unknown error</string>
+    <string name="successfully_deleted_article">Successfully deleted article</string>
+    <string name="undo">Undo</string>
+</resources>

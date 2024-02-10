@@ -1,0 +1,48 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.NewsHub" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryDark">@color/primaryDarkColor</item>
+        <item name="colorAccent">@color/secondaryColor</item>
+        <item name="android:statusBarColor">@color/primaryDarkColor</item>
+        <item name="android:navigationBarColor">@color/primaryDarkColor</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColorSecondary">@color/secondaryTextColor</item>
+    </style>
+
+    <!-- Estilo da Toolbar -->
+    <style name="ToolbarTheme" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="colorControlNormal">@color/white</item>
+        <item name="android:background">@color/primaryColor</item>
+    </style>
+
+    <!-- Estilo da BottomNavigationView -->
+    <style name="BottomNavigationTheme" parent="Widget.MaterialComponents.BottomNavigationView.Colored">
+        <item name="itemIconTint">@color/bottom_nav_item_color</item>
+        <item name="itemTextColor">@color/bottom_nav_item_color</item>
+        <item name="android:background">@color/primaryDarkColor</item>
+    </style>
+
+    <style name="FabStyle" parent="Widget.MaterialComponents.FloatingActionButton">
+        <!-- Defina a cor de fundo do FAB aqui -->
+        <item name="backgroundTint">@color/yellow</item>
+        <!-- Defina a cor do ícone do FAB aqui -->
+        <item name="tint">@color/white</item>
+    </style>
+
+    <style name="NewsThemeDialog" parent="Theme.MaterialComponents.Dialog.Alert">
+        <!-- Cor principal usada para o fundo do título e botões -->
+        <item name="colorPrimary">@color/white</item>
+
+        <!-- Cor de destaque para botões e outros elementos interativos -->
+        <item name="colorAccent">@color/yellow_bright</item>
+
+        <!-- Cor do texto principal dentro do diálogo -->
+        <item name="android:textColorPrimary">@color/white</item>
+
+        <!-- Cor de fundo do diálogo -->
+        <item name="android:background">@color/primaryLightColor</item>
+    </style>
+
+    <style name="Theme.NewsHub" parent="Base.Theme.NewsHub" />
+</resources>

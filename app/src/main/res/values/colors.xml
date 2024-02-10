@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="yellow">#FFC107</color>
+    <color name="yellow_bright">#F4FF81</color>
+
+    <!-- Paleta de cores principal atualizada -->
+    <color name="primaryColor">#607D8B</color> <!-- Azul petróleo -->
+    <color name="primaryLightColor">#8EACBB</color> <!-- Azul petróleo claro -->
+    <color name="primaryDarkColor">#34515E</color> <!-- Azul petróleo escuro -->
+    <color name="secondaryColor">#FF5722</color> <!-- Laranja intenso -->
+    <color name="primaryTextColor">#FFFFFF</color>
+    <color name="secondaryTextColor">#000000</color>
+</resources>
